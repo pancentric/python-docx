@@ -11,7 +11,7 @@ See LICENSE for licensing information.
 import logging
 from lxml import etree
 try:
-    from PIL import Image
+    from Pillow import Image
 except ImportError:
     import Image
 import zipfile
